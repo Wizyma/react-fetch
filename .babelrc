@@ -1,0 +1,13 @@
+{
+    "presets": [
+        "react",
+        "env"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread",
+        "transform-runtime",
+        "syntax-dynamic-import",
+        "transform-regenerator"
+    ]
+}

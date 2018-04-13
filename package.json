@@ -1,0 +1,48 @@
+{
+  "name": "react-fetch",
+  "version": "1.0.0",
+  "description": "React component to use fetch method inspired by apollo client",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "kcd-scripts test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wizyma/react-fetch.git"
+  },
+  "keywords": [
+    "React",
+    "Javascript"
+  ],
+  "author": "André Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wizyma/react-fetch/issues"
+  },
+  "homepage": "https://github.com/Wizyma/react-fetch#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "dom-testing-library": "^1.5.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "kcd-scripts": "^0.37.0",
+    "react-dom": "^16.3.1",
+    "react-testing-library": "^2.1.0"
+  }
+}
