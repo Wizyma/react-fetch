@@ -7,6 +7,7 @@ React component that integrate the fetch api inspired by apollo-client
 
 ## Usage 
 ```javascript
+// by default the GET method is used
 import React, { Component, Fragment } from 'react'
 import Fetch from 'react-fetch'
 import MyErrorComponent from './error-component'
@@ -39,3 +40,8 @@ class MyComponent extends Component {
   }
 }
 ```
+
+You can use all the `http` verbs. The Fetch component has optionnals parameter such as `credentials` ans `headers`.
+
+Do not hesitate to make a pull request or make some suggestions. 
+PR are welcome :heart: 
