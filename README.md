@@ -41,7 +41,7 @@ class MyComponent extends Component {
 }
 ```
 
-You can use all the `http` verbs. The Fetch component has optionnals parameter such as `credentials` ans `headers`.
+You can use all the `http` verbs. The Fetch component has optionals parameters such as `credentials` and `headers`.
 
 Do not hesitate to make a pull request or make some suggestions. 
 PR are welcome :heart: 
